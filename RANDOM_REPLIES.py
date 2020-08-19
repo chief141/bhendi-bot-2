@@ -38,7 +38,7 @@ def RandomReply(message_raw):
     elif message == "general kenobi":
         return "**Hello there - Bhendi Bot v2.0 by Monke - General Kenobi**"
 
-    elif message == "monke":
+    elif message in ["monke", "chief", "chief141"]:
         return "He died"
 
     else: return None
